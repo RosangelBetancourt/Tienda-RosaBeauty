@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rosangel Betancourt">
+    <title>Opina</title>
+
+    <link rel="stylesheet" href="../styles/opina-s.css">
+    <link rel="stylesheet" href="../styles/nav-footer.css">
+</head>
+<body>
+    <header class="flex-fila">
+        <div class="flex-fila logo">
+            <button onclick="location.href='./index.html'"><img src="../media/logoo.jpeg" alt=""></button>
+            <h2 class="dancing-script-titulo">RosaBeauty</h2>
+        </div>
+        <div>
+            <button class="boton-menu" onclick="menuAbrir()"><img src="../media/menu.svg" alt=""></button>
+        </div>
+
+        <div id="menu" class="menu-fondo">
+            <nav class="menu">
+                <div class="flex-fila cerrar">
+                    <button class="boton-cerrar" onclick="menuCerrar()"><img src="../media/cerrar.svg" alt="Logo RosaBeauty"></button>
+                </div>
+                <ul class="flex-columna">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./catalogo.html">Catálogo</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="./opina.html">Opina</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="division flex-fila parallax">
+            <span class="dancing-script-titulo">Opina sobre RosaBeauty</span>
+        </div>
+
+        <div class="form-centro flex-columna">
+            <form action="post" id="formulario-post" class="">
+                <div class="flex-columna">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="flex-columna">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="text" id="correo" name="correo" required>
+                </div>
+                <div class="flex-columna">
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" name="edad" required>
+                </div>
+                <div class="flex-columna">
+                    <label for="fecha">Fecha Actual</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div class="flex-columna">
+                    <label for="opinion">Opina</label>
+                    <textarea id="opinion" name="opinion" rows="4" cols="50" required></textarea>
+                </div>
+                <div class="enviar-form">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="flex-columna">
+        <p>Para mayor contenido mira nuestras redes</p>
+        <ul class="flex-fila">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </ul>
+        <p>RosaBeauty © 2024 | Todos los derechos reservados</p>
+    </footer>
+
+	<script type="text/javascript" src="../js/funcionalidad.js"></script>
+	<script type="text/javascript" src="../js/formulario.js"></script>
+</body>
+</html>

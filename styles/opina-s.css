@@ -1,0 +1,81 @@
+/* Formulario Opina */
+
+.division {
+    width: 100%;
+    height: 25vh;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: linear-gradient(#000000b3, #000000b3), url('../media/division2.jpeg')
+}
+.division span {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.form-centro {
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin: 10vh 2vh;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #febb7d;
+
+    border-radius: 10px;
+}
+form div {
+    justify-content: center;
+    align-items: start;
+    margin: 2vh 0;
+    padding: 2vh;
+    gap: 2vh;
+}
+form div input {
+    width: 100%;
+    height: 6vh;
+    padding: 10px;
+    background-color: #ffbd68;
+    border: none;
+}
+form div textarea {
+    width: 100%;
+    background-color: #ffbd68;
+    padding: 10px;
+    border: none;
+}
+form .enviar-form {
+    width: 100%;
+    text-align: center;
+}
+form .enviar-form button {
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid #d19b53;
+    color: #d19b53;
+    font-weight: 500;
+}
+form .enviar-form button:hover {
+    background-color: #988362;
+    color: #ffffff;
+}
+form .enviar-form button:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+form .enviar-form button:hover {
+    background-color: #d19b53;
+    color: #ffffff;
+}
+
+@media (max-width: 720px) and (max-height: 1280px) {
+    form {
+        width: 90%;
+    }
+}
