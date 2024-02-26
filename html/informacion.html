@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rosangel Betancourt">
+    <title>Catálogo</title>
+
+    <link rel="stylesheet" href="../styles/informacion-s.css">
+    <link rel="stylesheet" href="../styles/nav-footer.css">
+</head>
+<body>
+    <header class="flex-fila">
+        <div class="flex-fila logo">
+            <button onclick="location.href='./index.html'"><img src="../media/logoo.jpeg" alt=""></button>
+            <h2 class="dancing-script-titulo">RosaBeauty</h2>
+        </div>
+        <div>
+            <button class="boton-menu" onclick="menuAbrir()"><img src="../media/menu.svg" alt=""></button>
+        </div>
+
+        <div id="menu" class="menu-fondo">
+            <nav class="menu">
+                <div class="flex-fila cerrar">
+                    <button class="boton-cerrar" onclick="menuCerrar()"><img src="../media/cerrar.svg" alt="Logo RosaBeauty"></button>
+                </div>
+                <ul class="flex-columna">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./catalogo.html">Catálogo</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="./opina.html">Opina</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="dancing-script-titulo">Rubor en Crema Soft Pinch</h1>
+        <section class="informacion">
+            <div class="informacion-carrusel flex-columna">
+                <div class="carrusel">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/pdp-sku-Liquid-Blush-Dewy-Hope.jpg?v=1645133400" alt="">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/Soft-Pinch-Liquid-Blush-Arm-Swatches.jpg?v=1678210258" alt="">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/pdp-model-liquid-blush-sp22-HOPE.jpg?v=1678210199" alt="">
+                </div>
+                <div class="carrusel-botones flex-fila">
+                    <button onclick="prevImage()">Anterior</button>
+                    <button onclick="nextImage()">Siguiente</button>
+                </div>
+            </div>
+            <div class="informacion-detalles flex-columna">
+                <p class="descripcion">Un rubor líquido ligero y duradero que se difumina y desarrolla maravillosamente para un rubor suave y saludable. Disponible en acabados mate y húmedo.</p>
+                <div class="boton-carrito">
+                    <button>Añadir al Carrito</button>
+                </div>
+                <p>Tipo: <span>Rubor</span></p>
+                <p>Tonos: <span>Malva, Nude Pink, Peach, Hot Pink, True Red, Pink Malva</span></p>
+                <p>Precio: <span>23$</span></p>
+                <p>Disponibles: <span>200</span></p>
+                <p>Fórmula: <span>Líquida ligera y aireada se mezcla y construye sin esfuerzo para lograr un suave toque de color</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="flex-columna">
+        <p>Para mayor contenido mira nuestras redes</p>
+        <ul class="flex-fila">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </ul>
+        <p>RosaBeauty © 2024 | Todos los derechos reservados</p>
+    </footer>
+
+	<script type="text/javascript" src="../js/funcionalidad.js"></script>
+</body>
+</html>
