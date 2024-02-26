@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rosangel Betancourt">
+    <title>RosaBeauty</title>
+
+    <link rel="stylesheet" href="../styles/index-s.css">
+    <link rel="stylesheet" href="../styles/nav-footer.css">
+</head>
+<body>
+    <header class="flex-fila">
+        <div class="flex-fila logo">
+            <button onclick="location.href='./index.html'"><img src="../media/logoo.jpeg" alt=""></button>
+            <h2 class="dancing-script-titulo">RosaBeauty</h2>
+        </div>
+        <div>
+            <button class="boton-menu" onclick="menuAbrir()"><img src="../media/menu.svg" alt=""></button>
+        </div>
+
+        <div id="menu" class="menu-fondo">
+            <nav class="menu">
+                <div class="flex-fila cerrar">
+                    <button class="boton-cerrar" onclick="menuCerrar()"><img src="../media/cerrar.svg" alt="Logo RosaBeauty"></button>
+                </div>
+                <ul class="flex-columna">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./catalogo.html">Catálogo</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="./opina.html">Opina</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="presentacion flex-columna">
+            <h1 class="dancing-script-titulo">Somos RosaBeauty</h1>
+            <h3>Tu Lugar Seguro Para Consegir solo Makeup de Calidad</h3>
+        </section>
+
+        <div class="division flex-fila fondo-1 parallax">
+            <span class="dancing-script-titulo">RosaBeauty</span>
+        </div>
+
+        <section class="flex-columna landing-parrafos">
+            <section>
+                <p>Nuestra pasión es realzar tu belleza y empoderarte a través del maquillaje. Estamos comprometidos a brindarte una experiencia excepcional</p>
+                
+                <div class="landing-imagen"><img src="../media/parrafo1.jpeg" alt="Pasión y Belleza"></div>
+            </section>
+            <section>
+                <p>Solo ofrecemos productos genuinos. Valoramos tu confianza y nos aseguramos de que cada artículo que compres sea auténtico y seguro para tu piel.</p>
+                <div class="landing-imagen"><img src="../media/parrafo2.jpeg" alt="Seguridad"></div>
+            </section>
+            <section>
+                <p>Olvídate de las largas filas y las esperas en las tiendas físicas. Aquí puedes explorar y comprar tus productos favoritos desde la comodidad de tu hogar.
+                </p>
+                <div class="landing-imagen"><img src="../media/parrafo3.jpeg" alt="Accesibilidad"></div>            
+            </section>
+        </section>
+
+        <div class="division flex-fila fondo-2 parallax">
+            <span class="dancing-script-titulo">RosaBeauty</span>
+        </div>
+        
+        <section class="opina flex-columna">
+            <h3 class="dancing-script-titulo">Deja tu Opinión sobre RosaBeauty</h3>
+            <a href="./opina.html">Presiona Aquí</a>
+        </section>
+
+    </main>
+    <footer class="flex-columna">
+        <p>Para mayor contenido mira nuestras redes</p>
+        <ul class="flex-fila">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </ul>
+        <p>RosaBeauty © 2024 | Todos los derechos reservados</p>
+    </footer>
+
+	<script type="text/javascript" src="../js/funcionalidad.js"></script>
+</body>
+</html>

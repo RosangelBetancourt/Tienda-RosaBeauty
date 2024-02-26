@@ -1,0 +1,96 @@
+/* Estilos Index*/
+
+/* Contenido Index */
+.presentacion {
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.presentacion h1 {
+    font-size: 45px;
+}
+
+.division {
+    width: 100%;
+    height: 25vh;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.division span {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+.fondo-1 {
+    background-image: linear-gradient(#000000b3, #000000b3), url('../media/division1.jpeg')
+}
+.fondo-2 {
+    background-image: linear-gradient(#000000b3, #000000b3), url('../media/division2.jpeg')
+}
+
+/* descripcion de la tienda */
+.landing-parrafos {
+    gap: 10vh;
+    margin: 14vh 20vh;
+}
+.landing-parrafos section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    border: 2px solid #d19b53;
+    padding: 15px;
+}
+.landing-parrafos .landing-imagen {
+    width: auto;
+    margin: auto;
+}
+.landing-parrafos section p {
+    width: 70%;
+
+}
+.landing-parrafos .landing-imagen img {
+    width: auto;
+    height: 20vh;
+    border-radius: 10%;
+}
+
+/* llamar a opinion */
+.opina {
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.opina h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.opina a {
+    text-decoration: none;
+    color: #d19b53;
+    font-weight: 700;
+}
+
+
+@media (max-width: 720px) and (max-height: 1280px) {
+    /* landing page */
+    .landing-parrafos {
+        gap: 10vh;
+        margin: 14vh 4vh;
+    }
+    .landing-parrafos section {
+        display: flex;
+        flex-direction: column;
+    }
+    .landing-parrafos section p {
+        text-align: center;
+        width: auto;
+    }
+}

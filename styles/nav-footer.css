@@ -1,0 +1,159 @@
+/* Estilos Generales */
+
+/* paleta colores */
+/* 
+    rosa: #e8608c
+    naranja: #ffbd68
+    amarillo: #cdd56e
+    celeste: #71cbc4
+*/
+
+/* tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.dancing-script-titulo {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* efecto parallax */
+.parallax {
+    background-attachment: fixed;
+}
+
+/* limpiamos pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+
+/* flex en fila */
+.flex-fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* flex en columna */
+.flex-columna {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    padding: 20px 20px;
+    justify-content: space-between;
+    background-color: #ffbd68;
+}
+
+.logo {
+    gap: 10px;
+}
+.logo button {
+    border: none;
+    background: none;
+}
+.logo button img{
+    border-radius: 50%;
+}
+
+/* boton de menu */
+.boton-menu {
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+ 
+}
+.boton-menu img {
+    width: 25px;
+    height: 25px;
+}
+
+/* menu */
+#menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 200;
+}
+.menu {
+    width: 185px;
+    height: 100%;
+    padding: 20px;
+    background-color: #ffbd68;
+}
+.menu-fondo {
+    width: 100vw;
+    height: 100%;
+    background-color: #000000b3;
+}
+
+/* boton para cerrar menu */
+.boton-cerrar {
+    justify-content: end;
+    border-radius: 50%;
+    border: none;
+    background: none;
+}
+.cerrar {
+    justify-content: start;
+}
+.boton-cerrar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* dentro del menu */
+.menu ul {
+    list-style-type: none;
+    margin: 40px 20px;
+    gap: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffbd68;
+    background: linear-gradient(to left, #d19b53, #ffbd68, #d19b53);
+}
+footer p {
+    text-align: center;
+}
+footer ul {
+    gap: 10px;
+}
+footer ul li {
+    list-style-type: none;
+    font-size: 15px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
