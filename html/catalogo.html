@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rosangel Betancourt">
+    <title>Catálogo</title>
+
+    <link rel="stylesheet" href="../styles/catalogo-s.css">
+    <link rel="stylesheet" href="../styles/nav-footer.css">
+</head>
+<body>
+    <header class="flex-fila">
+        <div class="flex-fila logo">
+            <button onclick="location.href='./index.html'"><img src="../media/logoo.jpeg" alt=""></button>
+            <h2 class="dancing-script-titulo">RosaBeauty</h2>
+        </div>
+        <div>
+            <button class="boton-menu" onclick="menuAbrir()"><img src="../media/menu.svg" alt=""></button>
+        </div>
+
+        <div id="menu" class="menu-fondo">
+            <nav class="menu">
+                <div class="flex-fila cerrar">
+                    <button class="boton-cerrar" onclick="menuCerrar()"><img src="../media/cerrar.svg" alt="Logo RosaBeauty"></button>
+                </div>
+                <ul class="flex-columna">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./catalogo.html">Catálogo</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="./opina.html">Opina</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="division flex-fila parallax">
+            <span class="dancing-script-titulo">Catálogo</span>
+        </div>
+
+        <section class="lista-productos">
+            <section>
+                <h3 class="dancing-script-titulo">Rubor en Crema Soft Pinch</h3>
+                <div class="producto-img">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/pdp-sku-Liquid-Blush-Dewy-Hope.jpg?v=1645133400" alt="">
+                </div>
+                <p>Precio: <span>23$</span></p>
+                <div class="producto-boton">
+                    <button onclick="location.href='./informacion.html'">Detalles</button>
+                </div>
+            </section>
+            <section>
+                <h3 class="dancing-script-titulo">Tinta de Labios Soft Pinch</h3>
+                <div class="producto-img">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/soft-pinch-tinted-lip-oil-hope-1440x1952.jpg?v=1679094432" alt="">
+                </div>
+                <p>Precio: <span>20$</span></p>
+                <div class="producto-boton">
+                    <button onclick="location.href='./informacion.html'">Detalles</button>
+                </div>
+            </section>
+            <section>
+                <h3 class="dancing-script-titulo">Bronceador Warm Wishes</h3>
+                <div class="producto-img">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/Bronzer-Stick-Power-Boost-SKU.jpg?v=1638297308" alt="">
+                </div>
+                <p>Precio: <span>26$</span></p>
+                <div class="producto-boton">
+                    <button onclick="location.href='./informacion.html'">Detalles</button>
+                </div>
+            </section>
+            <section>
+                <h3 class="dancing-script-titulo">Iluminador Líquido Positive Light</h3>
+                <div class="producto-img">
+                    <img src="https://cdn.shopify.com/s/files/1/0314/1143/7703/products/Luminizer-Outshine-SKU_749ca9c1-8180-4448-bb3e-bf6c033759bc.jpg?v=1666327149" alt="">
+                </div>
+                <p>Precio: <span>25$</span></p>
+                <div class="producto-boton">
+                    <button onclick="location.href='./informacion.html'">Detalles</button>
+                </div>
+            </section>
+            <section>
+                <h3 class="dancing-script-titulo">Gel de Cejas Transparente</h3>
+                <div class="producto-img">
+                    <img src="https://www.rarebeauty.com/cdn/shop/files/brow-harmony-flexible-lifting-gel-1440x1952.jpg?v=1689901611" alt="">
+                </div>
+                <p>Precio: <span>17$</span></p>
+                <div class="producto-boton">
+                    <button onclick="location.href='./informacion.html'">Detalles</button>
+                </div>
+            </section>
+            <section>
+                <h3 class="dancing-script-titulo">Iluminador para Ojos</h3>
+                <div class="producto-img">
+                    <img src="https://www.rarebeauty.com/cdn/shop/products/positive-light-under-eye-brightener-light-1440x1952.jpg?v=1670453665" alt="">
+                </div>
+                <p>Precio: <span>24$</span></p>
+                <div class="producto-boton">
+                    <button onclick="location.href='./informacion.html'">Detalles</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="flex-columna">
+        <p>Para mayor contenido mira nuestras redes</p>
+        <ul class="flex-fila">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+        </ul>
+        <p>RosaBeauty © 2024 | Todos los derechos reservados</p>
+    </footer>
+
+	<script type="text/javascript" src="../js/funcionalidad.js"></script>
+</body>
+</html>
