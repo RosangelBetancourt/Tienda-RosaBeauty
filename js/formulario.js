@@ -2,7 +2,8 @@
 
 const opinionPost = document.getElementById('formulario-post');
 
-opinionPost.addEventListener('submit', async () => {
+opinionPost.addEventListener('submit', async (e) => {
+    e.preventDefault()
     var data = new URLSearchParams(new FormData(opinionPost));
 
     fetch('http://localhost:3000/opiniones', {
